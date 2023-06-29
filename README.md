@@ -26,6 +26,16 @@ Run the below command in the root
 go mod edit -replace user=./user
 ```
 
+Once, you're done with all the changes.
+
+Run the below command 
+
+```
+go build
+```
+
+You will receive a binary file in your project root,
+under the name `go-rest` in Windows `go-rest.exe`
 
 
 
